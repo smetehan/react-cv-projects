@@ -1,9 +1,8 @@
 import React from "react";
 import "./projects.css";
-// import Button from "react-bootstrap/Button";
-// import Card from "react-bootstrap/Card";
+
 import { Container, Row, Col } from "react-bootstrap";
-// import { project } from "../helper/projects";
+
 const Projects = () => {
   return (
     <>

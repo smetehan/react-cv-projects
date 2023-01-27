@@ -28,7 +28,7 @@ const Home = () => {
     setDeneme(
       `WEATHER: ${data.data.current.temp_c}°C ${data.data.current.condition.text} ${data.data.location.name} `
     );
-    console.log(data.data);
+    // console.log(data.data);
   };
   const getLocation = async () => {
     if (!navigator.geolocation) {
@@ -48,7 +48,7 @@ const Home = () => {
 
     request.onload = function () {
       var response = request.response;
-      console.log(response);
+      // console.log(response);
       setPiyasa(
         `FINANCE : USD : ${(1 / response.rates.USD).toFixed(2)}₺, EUR :  ${(
           1 / response.rates.EUR

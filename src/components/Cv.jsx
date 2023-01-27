@@ -27,14 +27,14 @@ const Cv = () => {
                 <div className="info-map">
                   <span>LinkedIn :</span>
                   <br />
-                  <a href={linkedin} target="_blank">
+                  <a href={linkedin} target="noreferrer">
                     {linkedin}
                   </a>
                 </div>
                 <div className="info-map">
                   <span>GitHub :</span>
                   <br />
-                  <a href={github} target="_blank">
+                  <a href={github} target="noreferrer">
                     {github}
                   </a>
                 </div>
