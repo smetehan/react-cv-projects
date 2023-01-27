@@ -1,0 +1,109 @@
+.card {
+  width: 50vw;
+  height: 40vh;
+  background-image: url(../images/furkan-hoca.jpeg);
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.card:hover {
+  background-image: url(../images/furkan-hoca.gif);
+  width: 70vw;
+  height: 60vh;
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+}
+.cardW {
+  width: 50vw;
+  height: 40vh;
+  background-image: url(../images/React-App-alisveris-sepeti.jpeg);
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.cardW:hover {
+  background-image: url(../images/React-App-alisveris-sepeti.gif);
+  width: 70vw;
+  height: 60vh;
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+}
+.cardO {
+  width: 50vw;
+  height: 40vh;
+  background-image: url(../images/analog-saat.jpeg);
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.cardO:hover {
+  background-image: url(../images/analog-saat.gif);
+  width: 70vw;
+  height: 60vh;
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+}
+.cardL {
+  width: 50vw;
+  height: 40vh;
+  background-image: url(../images/lang.jpg);
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.cardL:hover {
+  background-image: url(../images/lang.gif);
+  width: 70vw;
+  height: 60vh;
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+}
+.cardZ {
+  width: 50vw;
+  height: 40vh;
+  background-image: url(../images/Zar.jpg);
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+  cursor: pointer;
+  margin-top: 2rem;
+}
+.cardZ:hover {
+  background-image: url(../images/Zar.gif);
+  width: 70vw;
+  height: 60vh;
+  -moz-background-size: 100% 100%; /* Firefox 3.6 */
+  -o-background-size: 100% 100%; /* Opera 9.5 */
+  -webkit-background-size: 100% 100%; /* Safari 3.0, Chrome */
+  background-size: 100% 100%; /* w3c, Firefox 4.0, ie9  */
+}
+.divImg {
+  margin-top: 1rem;
+  /* border: 1px solid black; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}

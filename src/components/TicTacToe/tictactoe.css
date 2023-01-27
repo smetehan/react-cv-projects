@@ -1,0 +1,58 @@
+.tictactoe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 400px;
+  padding: 16px;
+  margin-top: 2rem;
+}
+table td {
+  border: 1px solid grey;
+  -webkit-box-shadow: -8px 4px 26px 0px rgba(0, 0, 0, 0.742);
+  -moz-box-shadow: -8px 4px 26px 0px rgba(0, 0, 0, 0.742);
+  box-shadow: -8px 4px 26px 0px rgba(0, 0, 0, 0.742);
+  background-color: #951ce6;
+  width: 100px;
+  height: 100px;
+  color: #e68c1e;
+  font-size: 28px;
+  -webkit-box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.75);
+}
+
+.tictacbutton {
+  background-color: green;
+  padding: 6px;
+  margin-top: 1rem;
+  height: 67px;
+  text-align: center;
+}
+.turn {
+  border: 1px solid black;
+  background-color: #20c8e6;
+  padding: 8px;
+  width: 300px;
+  font-size: 18px;
+  font-weight: 500;
+  -webkit-box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 10px 24px 5px rgba(0, 0, 0, 0.75);
+}
+.winner {
+  /* border: 1px solid black; */
+  background-color: #20c8e6;
+  padding: 6px;
+  margin-bottom: 1rem;
+  height: 67px;
+  margin-top: 1rem;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+.winplay {
+  display: flex;
+  gap: 1rem;
+}

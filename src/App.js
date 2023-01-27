@@ -1,24 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Header from "./components/Header";
+import Home from "./pages/Home";
+import { Col, Container, Row } from "react-bootstrap";
+import AppRouter from "./routers/AppRouter";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="app-settings">
+        <Header />
+      </div>
+      <Container className="container_app">
+        <Row>
+          <Col>
+            <AppRouter />
+          </Col>
+        </Row>
+      </Container>
+
+      <style jsx>{`
+        .app-settings {
+          position: sticky;
+          top: 0;
+          z-index: 999;
+        }
+        .container_app {
+          z-index: 0;
+        }
+      `}</style>
+    </>
   );
 }
 
