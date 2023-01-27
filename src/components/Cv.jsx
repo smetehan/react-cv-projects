@@ -1,4 +1,4 @@
-import { Container } from "react-bootstrap";
+import { Col, Container, Row } from "react-bootstrap";
 import {
   data,
   summary,
@@ -10,46 +10,48 @@ const Cv = () => {
   return (
     <>
       <Container className="container_cv">
-        <div className="title">
-          <h5>Şevket Metehan PARLAK</h5>
-          <h5>Front End Developer</h5>
-        </div>
+        <Row className="justify-content-md-center">
+          <Col>
+            <h5>Şevket Metehan PARLAK</h5>
+            <h5>Front End Developer</h5>
+          </Col>
+        </Row>
         <hr />
-        <div>
+        <>
           {data?.map((item) => {
             const { email, phone, address, github, linkedin } = item;
             return (
-              <div className="info">
-                <div className="info-map">
+              <Row>
+                <Col xs={12} md={6} lg={3} className="info-map">
                   <span>Email : </span>
                   <br /> {email}
-                </div>
-                <div className="info-map">
+                </Col>
+                <Col xs={12} md={6} lg={3} className="info-map">
                   <span>LinkedIn :</span>
                   <br />
                   <a href={linkedin} target="noreferrer">
                     {linkedin}
                   </a>
-                </div>
-                <div className="info-map">
+                </Col>
+                <Col xs={12} md={6} lg={3} className="info-map">
                   <span>GitHub :</span>
                   <br />
                   <a href={github} target="noreferrer">
                     {github}
                   </a>
-                </div>
-                <div className="info-map">
+                </Col>
+                <Col xs={12} md={6} lg={3} className="info-map">
                   <span>Phone :</span>
                   <br /> {phone}
-                </div>
-                <div className="info-map">
+                </Col>
+                <Col xs={12} md={6} lg={3} className="info-map">
                   <span>Address :</span>
                   <br /> {address}
-                </div>
-              </div>
+                </Col>
+              </Row>
             );
           })}
-        </div>
+        </>
         <hr />
         <div>
           {summary?.map((item) => {
@@ -157,11 +159,7 @@ const Cv = () => {
 
             margin-bottom: 30px;
           }
-          .info {
-            display: flex;
-            gap: 15px;
-            color: black;
-          }
+
           .info .info-map {
             padding: 10px;
             // border: 1px solid red;
